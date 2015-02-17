@@ -1,0 +1,587 @@
+/* This is the Main css file of "LandX - Theme" */
+
+/* Google web font's */
+
+
+/*Raleway Medium / bold
+=============================
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,700);
+/*Rule:   font-family: 'Raleway', sans-serif;*/
+/*
+# Source Sans Pro Regular / Bold / Italic
+=========================================
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic);
+/*Rule:   font-family: 'Source Sans Pro', sans-serif;*/*/*/
+
+
+
+/* Global Styles
+======================= */
+p {
+	color: #727272;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+}
+span {
+	color: #0199e6;
+	font-weight: 700;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	color: #323232;
+	-webkit-font-smoothing: antialiased;
+
+}
+h2 {
+	font-family: 'Raleway', sans-serif;
+	color: #323232;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+
+
+/* ============================= */
+
+
+
+.header-section {
+	background: url(../img/header-bg.jpg) no-repeat scroll center center;
+	min-height: 750px;
+	width: 100%;
+	background-size: cover;
+}
+.fixed-nav {
+	background: #fff;
+	height: auto;
+	border-bottom: 2px solid #ddd;
+}
+.logo:hover span {
+	color: #007095;
+}
+.logo h2 {
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+	font-size: 32px;
+	font-weight: 700;
+}
+.logo h2 span {
+	color: #0199e6;
+}
+.nav-elements {
+	padding: 5px 0;
+}
+.main-nav {
+	padding-top: 5px;
+}
+.main-nav ul{
+	margin: 0;
+	padding: 0;
+}
+.main-nav ul li{
+	float: left;
+	list-style: none;
+}
+.main-nav ul li a{
+	display: inline-block;
+	color: #323232;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 12px 18px;
+	border-bottom: 2px solid #fff;
+	-webkit-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+}
+.main-nav ul li a:hover{
+	color: #0199e6;
+	border-bottom: 2px solid #0199e6;
+}
+
+/* Hero section */
+.hero-section {
+	padding: 50px 0;
+}
+.hero-text {
+	margin: 80px 0;
+}
+.hero-text h1{
+	color: #fff;
+	font-weight: medium;
+	font-size: 45px;
+}
+.hero-text p{
+	font-size: 20px;
+	color: #fff;
+}
+.hero-input {
+	background: url(../img/form-background.png) repeat fixed 0 0;
+	padding: 20px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
+.input-contents {
+	padding-top: 20px;
+	padding-left: 35px;
+}
+.btn-register {
+	padding: 15px 25px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	text-transform: uppercase;
+	border-radius: 3px;
+}
+.register-help-text p {
+	color: #fff;
+	font-size: 18px;
+}
+input[type="text"], input[type="email"], input[type="tel"], input[type="url"], textarea {
+	height: 50px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #ddd;
+	background: #000;
+	font-size: 16px;
+	font-weight: normal;
+	border: 1px solid #0199e6;
+	border-left: 7px solid #0199e6;
+	border-radius: 3px;
+	padding-left: 20px;
+}
+input[type="text"]:focus , input[type="email"]:focus , input[type="tel"]:focus, input[type="url"]:focus, textarea:focus {
+	height: 50px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	background: #000;
+	font-size: 16px;
+	font-weight: normal;
+	border: 1px solid #0199e6;
+	border-left: 7px solid #0199e6;
+	border-radius: 3px;
+}
+textarea {
+	min-height: 200px;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+}
+textarea:focus {
+	min-height: 200px;
+	letter-spacing: 2px;
+}
+
+
+
+/* product-overview-section */
+.product-overview-section {
+	margin: 35px 0;
+}
+.padding-left {
+	padding-left: 60px;
+}
+
+.product-image {}
+.product-image img {
+	padding: 30px 0;
+}
+.product-details {}
+.product-details hr {
+	width: 15%;
+}
+.product-details h1 {
+	font-weight: 500;
+}
+.product-details p {}
+.product-tagline {}
+.product-tagline i {
+    display: inline-block;
+    color: #fff;
+    background: #0199e6;
+    padding: 8px 15px;
+    text-shadow: black;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+.product-tagline h2 {}
+.product-tagline p {}
+.product-tagline li {
+	list-style: none;
+}
+.product-details-section {
+	margin: 35px 0;
+	background: #f7f8fa;
+}
+.product-details-space {
+	padding: 50px 0;
+}
+
+
+/* LandX Features Section */
+.landx-feature-section-white-space {
+	padding: 50px 0; 
+}
+.landx-features-title {
+	margin: 40px 0;
+}
+.landx-features-title h1{
+	font-weight: 500;
+}
+.landx-features-title p{}
+.single-feature {}
+.single-feature:hover i {
+	color: #03A657;
+	transition: all 0.3s ease 0.5s;
+}
+.single-feature i {
+	color: #0199e6;
+	font-size: 50px;
+}
+.single-feature h2 {
+	margin: 10px 0;
+}
+.single-feature p {
+	font-size: 15px;
+}
+
+
+/* Pricing Table Styles */
+.pricing-table-section, .landx-carousel-section{
+	background: #f7f8fa;
+}
+.landx-pricing-table-area {
+	padding: 60px 0;
+}
+.title h2 {
+	color: #fff;
+	font-weight: 500;
+	font-size: 24px;
+	margin: 12px 0;
+}
+.title p {
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.single-pricing-table .pricing-table .bullet-item {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #323232;
+}
+.single-pricing-table .pricing-table .price {
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+}
+.btn-pr-table {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+/* Basic Table*/
+.basic-price {}
+
+.basic-price .pricing-table .cta-button .button {
+	background: #727272;
+}
+.basic-price .pricing-table .cta-button .button:hover {
+	background: #525050;
+}
+
+/* Premium table */
+.premium-price {}
+.premium-price .pricing-table .title {
+	background: #0199e6;
+}
+
+.premium-price .pricing-table .cta-button .button {
+	background: #0199e6;
+}
+.premium-price .pricing-table .cta-button .button:hover {
+	background: #067bb6;
+}
+
+/* Ultimate Price */
+.ultimate-price {}
+.ultimate-price .pricing-table .title {
+	background: #03a657;
+}
+
+.ultimate-price .pricing-table .cta-button .button {
+	background: #03a657;
+}
+.ultimate-price .pricing-table .cta-button .button:hover {
+	background: #038546;
+}
+
+/* Video Section */
+.landx-promo-video-area {
+	padding: 50px 0;
+}
+.landx-promo-video {
+	margin-bottom: 30px;
+}
+.promo-video-text {}
+.promo-video-text i {
+	float: left;
+	color: #0199e6;
+	font-size: 25px;
+	padding-right: 12px;
+}
+.promo-video-text h2 {
+	padding-top: 4px;
+}
+
+
+/* Carousel Items */
+.landx-carousel-area {
+	padding: 60px 0;
+}
+#landx-carousel .item{
+  margin: 3px;
+}
+#landx-carousel .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#landx-carousel .item img {
+	cursor: pointer;
+}
+
+
+.owl-theme .owl-controls .owl-page span {
+	background: #0199e6;
+}
+
+/* LightBox Styles */
+.lb-outerContainer {
+	background: #0199e6;
+}
+.lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-size: 18px;
+  color: #4c9ec8;
+  padding-top: 1em;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+
+/* Registration CALL TO ACTION */
+.landx-registration-section {
+	background: url(../img/contact-section-bg.jpg) no-repeat scroll center center;
+	min-height: 451px;
+	width: 100%;
+	background-size: cover;
+}
+.landx-registration-area {
+
+}
+.registration-cta-info {
+	padding-top: 160px;
+}
+.registration-cta-info h1 {
+	color: #fff;
+	font-weight: 700;
+	font-size: 35px;
+}
+.registration-cta-info h2 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+.btn-register-bottom {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: #008ed6;
+	padding: 15px 35px;
+	font-size: 15px;
+	border-radius: 3px;
+	margin-top: 10px;
+}
+
+.btn-register-bottom:hover {
+	background: #0373ac;
+}
+
+
+/* Landx contact section */
+.landx-contact-section {}
+.landx-contact-info {
+	padding: 50px 0;
+}
+.landx-contact-info h1 {
+	font-weight: 600;
+}
+.landx-contact-info a {
+    font-family: raleway;
+    color: #008ed6;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.landx-contact-info a:hover {
+	color: #0373ac;
+}
+
+.landx-contact-info a i {
+    font-size: 24px;
+    padding-right: 5px;
+}
+
+
+/* Footer Styles */
+.landx-footer-section {
+	background: #f7f8fa;
+}
+.footer-section {
+	padding: 50px 0;
+}
+.footer-section p{
+	color: #919191;
+}
+.footer-social-links {
+	padding-left: 345px; 
+}
+.footer-social-links ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.footer-social-links ul li {
+	float: left;
+}
+.footer-social-links ul li a {}
+.footer-social-links ul li a i {
+    font-size: 35px;
+    padding: 0px 10px;
+    color: #919191;
+    transition: all 0.1s ease 0.5s;
+}
+.footer-social-links ul li a i:hover {
+	color: #0199e6;
+}
+.contact-modal {}
+.contact-modal h1 {
+	font-weight: 700;
+    text-transform: uppercase;
+}
+.contact-modal i {
+	font-size: 25px;
+	transition: all 0.3s ease 0.5s;
+}
+.contact-modal i:hover {
+	color: #0199E6;
+}
+.reveal-modal, dialog {
+	border: solid 1px #2695cd;
+	box-shadow: 0 0 7px #0581c0;
+}
+
+/* partners-quote-section */
+.landx-partners-section {
+	padding: 40px 0;
+}
+.partners-display #landx-partners-carousel .owl-pagination {
+	display: none;
+}
+.partners-display #landx-partners-carousel .owl-item .item {
+	text-align: center;
+} 
+.partners-display #landx-partners-carousel .item a img {
+  -webkit-opacity: 0.4;
+  -moz-opacity: 0.4;
+  opacity: 0.4;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+.partners-display #landx-partners-carousel .item a:hover img {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+.partners-display {
+	margin-bottom: 80px;
+} 
+
+.partners-quote-section .partenrs-quote .qute-box {
+  background: #f7f8fa;
+  padding: 30px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  position: relative;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.partners-quote-section .partenrs-quote .qute-box:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #e5e5e5;
+  position: absolute;
+  bottom: -10px;
+  left: 45%;
+}
+.partners-quote-section .partenrs-quote .qute-box i {
+	font-size: 30px;
+	color: #fff;
+	background: #1d9ddd;
+	position: relative;
+	display: inline;
+	padding: 0px 11px;
+	bottom: 50px;
+	border-radius: 5px;
+	border: 3px solid #fff;
+
+}
+.partners-quote-section .partenrs-quote .qute-box blockquote {
+	border-left: none;
+	padding: 0;
+}
+.partners-quote-section .partenrs-quote .qute-box blockquote em {
+	color: #727272;
+	font-family: 'Source Sans Pro';
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 500;
+}
+
+.partners-quote-section .partenrs-quote a h2 {
+	font-family: 'Source Sans Pro';
+	font-weight: 700;
+	color: #1d9ddd;
+	font-size: 18px;
+}
+.partners-quote-section .partenrs-quote p:before {
+	content: '@';
+}
+.partners-quote-section .partenrs-quote p {
+	font-family: 'Source Sans Pro';
+	color: #727272;
+	font-size: 16px;
+	font-weight: 500;
+}
+.partenrs-quote {
+	margin-bottom: 25px;
+}
