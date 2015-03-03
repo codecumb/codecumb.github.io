@@ -34,7 +34,23 @@
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/vendor/jquery.js"></script>
 
+    <!-- Query loader JS -->
+    <script src="js/queryloader2.min.js"></script>
     
+
+    <!-- preloader -->
+    <script type="text/javascript">
+      window.addEventListener('DOMContentLoaded', function() {
+          new QueryLoader2(document.querySelector("body"), {
+              barColor: "#0199E6",
+              backgroundColor: "#111",
+              percentage: true,
+              barHeight: 1,
+              minimumTime: 200,
+              fadeOutTime: 1000
+          });
+      });
+    </script>
   </head>
   <body>
     
@@ -44,7 +60,7 @@
 
 
     <!-- Header Section -->
-        <header class="header-section" id="home">
+        <header class="header-section">
 
         
         <!-- Header Sticki Nav Bar -->
@@ -57,13 +73,13 @@
 
               <nav class="main-nav">
                 <ul id="menu">
-                  <li><a href="#home">Home</a></li>
-                  <li><a href="#products">Product</a></li>
-                  <li><a class="features" href="#features">Features</a></li>
-                  <li><a href="#pricing">Pricing</a></li>
-                  <li><a href="#intro">Intro</a></li>
-                  <li><a href="#screens">Screens</a></li>
-                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Product</a></li>
+                  <li><a class="scroll" href="#features">Features</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Intro</a></li>
+                  <li><a href="#">Screens</a></li>
+                  <li><a href="#">Contact</a></li>
                 </ul>
               </nav>
 
@@ -110,7 +126,7 @@
 
     <!-- Product Overview Area -->
 
-    <section class="product-overview-section" id="products">
+    <section class="product-overview-section">
         <div class="row product-details-space ">
           <div class="large-6 columns product-image left">
               <img src="img/browser.jpg" alt="LandX Product Overview.">
@@ -258,7 +274,7 @@ acquihire technical cofounder.</p>
     <!-- Pricing Table Section -->
 
 
-    <section class="pricing-table-section" id="pricing">
+    <section class="pricing-table-section">
       <div class="row landx-pricing-table-area">
         <div class="large-12 columns landx-features-title text-center">
           <h1>Pricing Table</h1>
@@ -326,7 +342,7 @@ acquihire technical cofounder.</p>
     <!-- LandX Promo Video Section -->
 
 
-    <section class="landx-promo-video-section" id="intro">
+    <section class="landx-promo-video-section">
       <div class="row landx-promo-video-area">
         <div class="large-12 columns landx-features-title text-center">
           <h1>Watch Video</h1>
@@ -365,7 +381,7 @@ acquihire technical cofounder.</p>
     <!-- LandX Craousel Section -->
 
 
-    <section class="landx-carousel-section" id="screens">
+    <section class="landx-carousel-section">
       <div class="row landx-carousel-area">
         <div class="large-12 columns landx-features-title text-center">
           <h1>Product Screenshoot's</h1>
@@ -416,20 +432,20 @@ acquihire technical cofounder.</p>
 
         <div class="large-12 medium-12 columns partners-display">
           <div id="landx-partners-carousel">
-            <div class="item"><a href="#"><img src="img/landX-partner-mashabel.png" alt="landx partneers image"></a></div>
-            <div class="item"><a href="#"><img src="img/landX-partner-national-geographic.png" alt="landx partneers image"></a></div>
-            <div class="item"><a href="#"><img src="img/landX-partner-tnw.png" alt="landx partneers image"></a></div>
-            <div class="item"><a href="#"><img src="img/landX-partner-vouge.png" alt="landx partneers image"></a></div>
+            <div class="item"><a href="#"><img src="img/landx-partner-mashabel.png" alt="landx partneers image"></a></div>
+            <div class="item"><a href="#"><img src="img/landx-partner-national-geographic.png" alt="landx partneers image"></a></div>
+            <div class="item"><a href="#"><img src="img/landx-partner-tnw.png" alt="landx partneers image"></a></div>
+            <div class="item"><a href="#"><img src="img/landx-partner-vouge.png" alt="landx partneers image"></a></div>
 
-            <div class="item"><a href="#"><img src="img/landX-partner-mashabel.png" alt="landx partneers image"></a></div>
-            <div class="item"><a href="#"><img src="img/landX-partner-national-geographic.png" alt="landx partneers image"></a></div>
-            <div class="item"><a href="#"><img src="img/landX-partner-tnw.png" alt="landx partneers image"></a></div>
-            <div class="item"><a href="#"><img src="img/landX-partner-vouge.png" alt="landx partneers image"></a></div>
+            <div class="item"><a href="#"><img src="img/landx-partner-mashabel.png" alt="landx partneers image"></a></div>
+            <div class="item"><a href="#"><img src="img/landx-partner-national-geographic.png" alt="landx partneers image"></a></div>
+            <div class="item"><a href="#"><img src="img/landx-partner-tnw.png" alt="landx partneers image"></a></div>
+            <div class="item"><a href="#"><img src="img/landx-partner-vouge.png" alt="landx partneers image"></a></div>
 
-            <div class="item"><a href="#"><img src="img/landX-partner-mashabel.png" alt="landx partneers image"></a></div>
-            <div class="item"><a href="#"><img src="img/landX-partner-national-geographic.png" alt="landx partneers image"></a></div>
-            <div class="item"><a href="#"><img src="img/landX-partner-tnw.png" alt="landx partneers image"></a></div>
-            <div class="item"><a href="#"><img src="img/landX-partner-vouge.png" alt="landx partneers image"></a></div>
+            <div class="item"><a href="#"><img src="img/landx-partner-mashabel.png" alt="landx partneers image"></a></div>
+            <div class="item"><a href="#"><img src="img/landx-partner-national-geographic.png" alt="landx partneers image"></a></div>
+            <div class="item"><a href="#"><img src="img/landx-partner-tnw.png" alt="landx partneers image"></a></div>
+            <div class="item"><a href="#"><img src="img/landx-partner-vouge.png" alt="landx partneers image"></a></div>
           </div>
         </div> <!-- end partners display -->
 
@@ -474,7 +490,7 @@ acquihire technical cofounder.</p>
     <!-- Registration Section -->
 
 
-    <section class="landx-registration-section" id="contact">
+    <section class="landx-registration-section">
       <div class="row landx-registration-area">
         <div class="large12 columns text-center registration-cta-info">
           <h2>We Are Ready to Help You</h2>
