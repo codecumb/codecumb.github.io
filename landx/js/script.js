@@ -3,6 +3,7 @@ $(document).foundation();
 
 
 $(document).ready(function() {
+
  	// owl-carousel options
   $("#landx-carousel").owlCarousel({
  
@@ -28,6 +29,7 @@ $(document).ready(function() {
 
 
   // SlickNav Functions
+
   $('#menu').slicknav({
 	'label' : 'MENU', // Label for menu button. Use an empty string for no label.
 	'duplicate': true, // If true, the mobile menu is a copy of the original.
@@ -39,5 +41,23 @@ $(document).ready(function() {
 	'closeOnClick': false // Close menu when a link is clicked.
   });
 
+
+  // scroll up
+
+  $.scrollUp();
+
+
+
  
 });
+
+// Scroll to ID
+(function($){
+        $(window).load(function(){
+
+            // scroll to ID
+            $("a[rel='PageScroll2id']").mPageScroll2id({
+              offset: 50,
+            });
+        });
+})(jQuery);
