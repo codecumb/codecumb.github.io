@@ -1,10 +1,10 @@
 /* Global styles */
 body {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* Header Style's :
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .main-nav ul li a {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     color: #484c55;
     padding: 35px 24px;
     font-weight: 500;
@@ -49,19 +49,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 .slider-contents {}
 .slider-contents h1 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	font-weight: 500;
 	padding: 20px 0;
 }
 .slider-contents p {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	letter-spacing: 1px;
 }
 .slider-btn {
 	color: #fff;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	letter-spacing: 1px;
 	background: none;
 	border: 3px solid #fff;
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: middle;
 }
 .promo-contents h2 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	color: #4e525d;
 	font-weight: 500;
 	font-size: 20px;
@@ -132,13 +132,13 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 10px 0;
 }
 .promo-contents p {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	color: #4e525d;
 	font-weight: 400;
 	font-size: 14px;
 }
 .promo-btn {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	background: #49cbcd;
 	text-transform: capitalize;
@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 20px 0;
 }
 .area-title h1{
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	color: #4e525d;
 	font-size: 35px;
 }
@@ -259,14 +259,14 @@ h1, h2, h3, h4, h5, h6 {
 .caption-content h3{
 	font-size: 30px;
 	text-align: center;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	color: #fff;
 }
 
 .caption-content p {
 	text-align: left;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-portfolio {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	background: #49cbcd;
 	color: #fff;
 	font-weight: 500;
@@ -365,7 +365,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #4e525d;
 	text-align: center;
 	font-weight: 500;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 }
 .team-content h3 span {
 	display: block;
@@ -376,7 +376,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .team-content p {
 	text-align: center;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	color: #4e525d;
 	font-size: 13px;
 }
@@ -405,11 +405,11 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	font-size: 26px;
 	font-weight: 400;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 }
 .single-pricing-table .pricing-table .price{
 	color: #485460;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 	padding: 1.3rem 1.25rem;
@@ -417,11 +417,11 @@ h1, h2, h3, h4, h5, h6 {
 .single-pricing-table .pricing-table .description{}
 .single-pricing-table .pricing-table .bullet-item{
 	color: #8c9299;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 }
 .single-pricing-table .pricing-table .cta-button .button{
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	font-weight: 500;
 	background: #788492;
@@ -460,7 +460,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 20px 0;
 }
 .clients-testimonial .bxslider p {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	color: #4e525d;
 	border-left: 5px solid #49cbcd;
 	padding: 0 10px;
@@ -479,7 +479,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .clients-testimonial .bxslider span {
 	color: #9a8faf;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 20px;
 }
@@ -564,7 +564,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 
 
 .contact-btn {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	font-weight: 500;
 	background: #49cbcd;
@@ -591,7 +591,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 	padding: 50px 0;
 }
 .banner-text h1 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	font-weight: 500;
 }
@@ -607,7 +607,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 }
 .side-bar-widget .side-bar-widget-content .side-bar-search-bar  input[type="text"] {
 	height: 45px;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	color: #bababa;
 	font-size: 14px;
 	font-weight: 400;
@@ -638,7 +638,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 
 .side-bar-widget h4 {
 	color: #414a5a;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 26px;
 	font-weight: 500;
 	text-transform: capitalize;
@@ -684,7 +684,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 }
 .side-bar-widget .side-bar-widget-content .side-bar-subscribe-section   input[type="text"] {
 	height: 45px;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	color: #bababa;
 	font-size: 14px;
 	font-weight: 400;
@@ -699,7 +699,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 
 .sdbr-sbs-btn {
     color: #fff;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 500;
     background: #49cbcd;
@@ -723,7 +723,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 	-o-transition: all 0.3s ease 0s;
 }
 .side-bar-widget .side-bar-widget-content .side-bar-category-section ul li a {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: #414a5a;
@@ -760,21 +760,21 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 }
 .side-bar-ppost-section .ppost p {
 	color: #414a5a;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 500;
 }
 
 .side-bar-ppost-section .ppost-info span {
 	color: #414a5a;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	font-weight: 500;
 }
 
 .side-bar-ppost-section .ppost-info a {
 	color: #a88fd8;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	font-weight: 500;
 	display: inline;
@@ -797,7 +797,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 }
 .side-bar-widget .side-bar-widget-content .side-bar-rpost-section ul li {}
 .side-bar-widget .side-bar-widget-content .side-bar-rpost-section ul li a {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: #414a5a;
@@ -828,7 +828,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 	margin: 5px;
 }
 .side-bar-widget .side-bar-widget-content .side-bar-tag-section ul li a {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 500;
     color: #414a5a;
