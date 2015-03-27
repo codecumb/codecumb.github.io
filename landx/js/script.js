@@ -42,9 +42,6 @@ $(document).ready(function() {
   });
 
 
-  // scroll up
-
-  $.scrollUp();
 
 
 
