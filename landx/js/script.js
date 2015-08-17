@@ -40,6 +40,9 @@ $(document).ready(function() {
 	'parentTag': 'a', // Element type for parent menu items.
 	'closeOnClick': false // Close menu when a link is clicked.
   });
+    
+    // Stelar
+    $('#parallax').stellar();
 
 
 

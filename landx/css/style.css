@@ -220,6 +220,7 @@ textarea:focus {
 .single-feature {}
 .single-feature:hover i {
 	color: #03A657;
+	-webkit-transition: all 0.3s ease 0.5s;
 	transition: all 0.3s ease 0.5s;
 }
 .single-feature i {
@@ -363,10 +364,11 @@ textarea:focus {
 
 /* Registration CALL TO ACTION */
 .landx-registration-section {
-	background: url(../img/contact-section-bg.jpg) no-repeat scroll center center;
-	min-height: 451px;
+	background: url(../img/picjambo.jpg) no-repeat scroll center center;
+	min-height: 400px;
 	width: 100%;
 	background-size: cover;
+    background-attachment: fixed;
 }
 .landx-registration-area {
 
@@ -452,6 +454,7 @@ textarea:focus {
     font-size: 35px;
     padding: 0px 10px;
     color: #919191;
+    -webkit-transition: all 0.1s ease 0.5s;
     transition: all 0.1s ease 0.5s;
 }
 .footer-social-links ul li a i:hover {
@@ -464,6 +467,7 @@ textarea:focus {
 }
 .contact-modal i {
 	font-size: 25px;
+	-webkit-transition: all 0.3s ease 0.5s;
 	transition: all 0.3s ease 0.5s;
 }
 .contact-modal i:hover {
@@ -505,13 +509,7 @@ textarea:focus {
 .partners-quote-section .partenrs-quote .qute-box {
   background: #f7f8fa;
   padding: 30px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
   border-radius: 4px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
   background-clip: padding-box;
   position: relative;
   margin-bottom: 23px;
