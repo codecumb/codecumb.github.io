@@ -1,0 +1,112 @@
+/* Medium Layout: 1280px. */
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-insta-photo img {
+    height: 100px !important;
+  }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  .navbar-custom .navbar-nav {
+    background: #333;
+  }
+  .navbar-custom .navbar-nav li {
+    margin-right: 0;
+  }
+  .navbar-custom .navbar-nav li a {
+    text-align: center;
+  }
+  .hero-section {
+    height: 300px;
+    min-height: 300px;
+  }
+  .hero-heading {
+    font-size: 30px;
+  }
+  .logo img {
+    width: 110px;
+  }
+  .single-about-widget {
+    margin-bottom: 20px;
+  }
+  .single-about-widget .fa {
+    font-size: 40px;
+  }
+  .single-about-widget h2 {
+    margin-top: 15px;
+  }
+  .single-about-widget p {
+    font-size: 11px;
+  }
+  .section-title {
+    font-size: 26px;
+  }
+  .discover-benifits p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .video-section {
+    height: 300px;
+  }
+  .video-section .btn-video {
+    padding: 10px 10px;
+    font-size: 8px;
+  }
+  .feature-container {
+    margin-top: 50px;
+  }
+  .feature-container .single-feature .media {
+    margin-bottom: 30px;
+  }
+  .feature-container .single-feature .media h2 {
+    margin-top: 0;
+  }
+  .feature-container .single-feature .media .media-left {
+    padding-right: 26px;
+  }
+  .feature-container .single-feature .media .media-right {
+    padding-left: 26px;
+  }
+  .feature-container .single-feature .media img {
+    width: 80px;
+    height: 80px;
+  }
+  .feature-container .single-feature .media p {
+    line-height: 26px;
+    font-size: 13px;
+  }
+  .gallery-section .gallery-wrap .gallery-item img {
+    height: 100px;
+    width: 100%;
+  }
+  .single-insta-photo img {
+    height: 100px !important;
+    width: 100%;
+  }
+  .insta-container .col-xs-6 {
+    padding: 5px;
+  }
+  #google-map {
+    padding: 0;
+    height: 200px;
+  }
+  .footer-section p {
+    font-size: 12px;
+  }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .single-insta-photo img {
+    height: 150px !important;
+    width: 100%;
+  }
+  .gallery-section .gallery-wrap .gallery-item img {
+    height: 150px;
+    width: 100%;
+  }
+  .contact-form .btn-common {
+    margin-top: 15px !important;
+  }
+}
